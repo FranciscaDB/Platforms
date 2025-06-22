@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="jetros.png" alt="image" width="400"/>
+</p>
 
 ### Bill of Materials
 | Component                                  | Link               |
