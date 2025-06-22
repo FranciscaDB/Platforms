@@ -5,7 +5,7 @@ This repository contains the recommended slicing configuration for 3D printing c
 
 ## ✅ Recommended Cura Slicer Settings
 
-To achieve optimal quality when printing the caster ball parts, please use the following slicing configuration in Cura:
+To achieve optimal quality when printing the parts, please use the following slicing configuration in Cura:
 
 ### Quality
 - **Layer Height**: `0.15 mm`
