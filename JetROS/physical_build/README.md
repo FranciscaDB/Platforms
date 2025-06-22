@@ -6,9 +6,9 @@
 | Component                                  | Link               |
 |--------------------------------------------|--------------------|
 | NVIDIA Jetson Orin Nano Dev Kit            | https://developer.nvidia.com/buy-jetson?product=all&location=CA                    |
-| Waveshare UPS Module for Jetson Orin       |                    |
+| Waveshare UPS Module for Jetson Orin       | https://www.waveshare.com/ups-power-module-c.htm                   |
 | 21700 Li battery x3                        |                    |
-| Slamtec RPLIDAR C1                         |                    |
+| Slamtec RPLIDAR C1                         | https://www.amazon.ca/ZICZNT-scanning-Positioning-Navigation-Avoidance/dp/B0DDKZV8HZ                   |
 | Akyta AKT-N5-1 HD Webcam                   |                    |
 | GA12-N20 DC Encoder Motor x2               |                    |
 | Adafruit FeatherWing Motor Driver          |                    |
