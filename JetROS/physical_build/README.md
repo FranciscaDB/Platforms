@@ -5,7 +5,7 @@
 ### Bill of Materials
 | Component                                  | Link               |
 |--------------------------------------------|--------------------|
-| NVIDIA Jetson Orin Nano Dev Kit            |                    |
+| NVIDIA Jetson Orin Nano Dev Kit            | https://developer.nvidia.com/buy-jetson?product=all&location=CA                    |
 | Waveshare UPS Module for Jetson Orin       |                    |
 | 21700 Li battery x3                        |                    |
 | Slamtec RPLIDAR C1                         |                    |
