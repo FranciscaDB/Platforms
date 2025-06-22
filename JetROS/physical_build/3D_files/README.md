@@ -54,4 +54,4 @@ To achieve optimal quality when printing the parts, please use the following sli
 The caster ball base and shroud models are part of the official JetBot hardware design by **NVIDIA**.
 
 You can find more information and download the original files at:  
-👉 [NVIDIA JetBot Hardware Setup – 3D Printed Parts](https://github.com/NVIDIA-AI-IOT/jetbot/blob/master/docs/hardware_setup.md#3d-printed-parts)
+👉 [NVIDIA JetBot – 3D Printed Parts](https://jetbot.org/master/3d_printing.html)
