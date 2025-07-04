@@ -1,6 +1,6 @@
 The next sections must be done in order.
 
-## How to set the jetpack
+## 1. Install JetPack 5.1.4
 
 It is important to use JetPack 5.1.4, as newer versions make it more difficult to use the GPIOs.
 
@@ -15,7 +15,7 @@ Some tips for this step:
 
 
 
-## Install ROS 2 foxy
+## 2. Install ROS 2 foxy
 
 Follow all the steps from the Installation (Ubuntu - Debian) section at:
 
@@ -23,7 +23,7 @@ https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
 
 After completing the installation, continue with the Tutorials section. Once you are able to run the turtlesim examples, your ROS 2 environment will be mostly ready.
 
-## Install PyTorch 2.1 and TorchVision 0.16.1
+## 3. Install PyTorch 2.1 and TorchVision 0.16.1
 
 https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
 
