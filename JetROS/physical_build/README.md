@@ -30,8 +30,8 @@
 | 14               |              | GND       |           |
 | 15               |              | C1        |           |
 | 16               |              | C2        |           |
-|                  | M1           | M1-M2     |           |
-|                  | M2           |           | M1-M2     |
+| N/A              | M1           | M1-M2     |           |
+| N/A              | M2           |           | M1-M2     |
 
 <p align="center">
 <img src="pins_orin.png" width="300">
