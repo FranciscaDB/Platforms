@@ -23,7 +23,7 @@ https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
 
 After completing the installation, continue with the Tutorials section. Once you are able to run the turtlesim examples, your ROS 2 environment will be mostly ready.
 
-### Install PyTorch 2.1 and TorchVision 0.16.1
+## Install PyTorch 2.1 and TorchVision 0.16.1
 
 https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
 
