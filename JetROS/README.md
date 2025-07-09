@@ -36,7 +36,10 @@ To successfully follow this project, we suggest progressing in the following ord
 
 📁 source/ – Copy the corresponding files from the source folder to the ROS 2 workspace.
 
+🧠 training/ - Copy the training files and follow the instructions in the README.
 
+🔳 Launch the GUI from a robot or from a computer configured with ROS 2 and that has the same ROS ID. 
 
+And with this, you'll be able to use the JETBOT platform.
 
 
