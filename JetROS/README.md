@@ -34,6 +34,7 @@ To successfully follow this project, we suggest progressing in the following ord
 
 🛠️ physical_build/ – Physical build of the robot (3D printing files, assembly details, wiring, etc.)
 
+📁 source/ – Copy the corresponding files from the source folder to the ROS 2 workspace.
 
 
 
