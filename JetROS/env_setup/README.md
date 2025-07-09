@@ -55,7 +55,7 @@ $ cd ../  # attempting to load torchvision from build dir will result in import 
 $ pip install 'pillow<7' # always needed for Python 2.7, not needed torchvision v0.5.0+ with Python 3.6
 ```
 
-## How to set up Jupyter Lab 4 and jupyter_clickable_image_widget (neccesary for collect data script)
+## 4. Set up Jupyter Lab 4 and jupyter_clickable_image_widget (neccesary for collect data script)
 ```bash
 pip install jupyterlab==4.0.10 ipywidgets
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
@@ -70,4 +70,11 @@ yarn run build:prod
 cd ..
 pip install .
 jupyter lab build
+```
+
+## 5. Install torch2trt
+```bash
+git clone https://github.com/NVIDIA-AI-IOT/torch2trt
+cd torch2trt
+python3 setup.py install --user
 ```
