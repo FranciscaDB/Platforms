@@ -6,12 +6,6 @@ Differential wheeled robot based on Jetson Orin Nano Dev kit.
   <img src="jetros.png" alt="image" width="400"/>
 </p>
 
-To successfully follow this project, we suggest progressing in the following order:
-
-## Recommended Workflow
-🔧 env_setup/ – Environment setup (dependency installation, ROS 2 setup, Jetson configuration, etc.)
-
-🛠️ physical_build/ – Physical build of the robot (3D printing files, assembly details, wiring, etc.)
 
 ## Bill of Materials
 | Component                                  | Link               |
@@ -25,7 +19,12 @@ To successfully follow this project, we suggest progressing in the following ord
 | Adafruit FeatherWing Motor Driver          | https://www.adafruit.com/product/2927?srsltid=AfmBOooZTwYZpVQFFOb1u36j2i_Kcq3z-mYKjlnS9TZ4RGsDC-pft_L8                   |
 | AsperX Power Bank 10000mAh                 |  https://www.amazon.ca/AsperX-10000mAh-Portable-External-iPhone14/dp/B09JBKDSP9/ref=sr_1_1_sspa?crid=22GXAOTYHITJB&dib=eyJ2IjoiMSJ9.t9cH1wVDvBZfc0hDCgEYVbW3N2wX-g-O2n2kvwOznMmUY_vICsrPcjRSZLYLDFm8L2TVz58q17S9BX4Fd7AXymjsxg_LI6RO-kzzvvakTUkyqvfjkOtOK7zqeNC5m1iVOlXyQGxN57ni6lwQPJWLRniPZzygxbEt3WBMgsHe1hwUBhZVxuIcUgtjPr6fDSTsOa4f-HzQzH52e-gRjA1b0asTm5zFAy2U7qDAKH1j4WXhaYexGRogsdHLP8L4x9plV-G1C0uDfCreNpePlJJCUEhnizWCslkD6GHNr5VgQmQ.n1hzhFdjfY5uuS8HVh1uz5VKTOl-B1H5ZJRDFHTWTBc&dib_tag=se&keywords=AsperX%2BPower%2BBank%2B10000mAh&qid=1751605608&sprefix=asperx%2Bpower%2Bbank%2B10000mah%2Caps%2C108&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1                  |
 
+## Recommended Workflow
+To successfully follow this project, we suggest progressing in the following order:
 
+🔧 env_setup/ – Environment setup (dependency installation, ROS 2 setup, Jetson configuration, etc.)
+
+🛠️ physical_build/ – Physical build of the robot (3D printing files, assembly details, wiring, etc.)
 
 
 
