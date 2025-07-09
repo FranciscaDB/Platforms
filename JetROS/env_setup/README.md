@@ -65,7 +65,7 @@ git clone https://github.com/jaybdub/jupyter_clickable_image_widget
 cd jupyter_clickable_image_widget
 cd js
 yarn install
-yarn add @jupyter-widgets/controls (maybe before?)
+yarn add @jupyter-widgets/controls
 yarn run build:prod
 cd ..
 pip install .
