@@ -56,7 +56,7 @@ $ pip install 'pillow<7' # always needed for Python 2.7, not needed torchvision 
 ```
 
 ## How to set up Jupyter Lab 4 and jupyter_clickable_image_widget (neccesary for collect data script)
-```
+```bash
 pip install jupyterlab==4.0.10 ipywidgets
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
