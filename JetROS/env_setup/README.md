@@ -70,6 +70,7 @@ yarn run build:prod
 cd ..
 pip install .
 jupyter lab build
+jupyter labextension install js
 ```
 
 ## 5. Install torch2trt
