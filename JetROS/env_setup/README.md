@@ -33,10 +33,6 @@ PyTorch mus be downloaded from https://developer.download.nvidia.cn/compute/redi
 pip3 install torch-2.1.0a0+41361538.nv23.06-cp38-cp38-linux_aarch64.whl](https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
 ```
 
-PyTorch must be downloaded from the following link:
-
-https://developer.download.nvidia.cn/compute/redist/jp/v512/pytorch/torch-2.1.0a0+41361538.nv23.06-cp38-cp38-linux_aarch64.whl
-
 Then, install it on the Jetson Orin Nano with:
 
 ```bash
