@@ -40,6 +40,6 @@ To successfully follow this project, we suggest progressing in the following ord
 
 🔳 Launch the GUI from a robot or from a computer configured with ROS 2 and that has the same ROS ID. 
 
-And with this, you'll be able to use the JETBOT platform.
+And with this, you'll be able to use the JETROS platform.
 
 
