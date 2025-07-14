@@ -11,7 +11,9 @@ JETROS is a modular and scalable robotic platform designed for real-time experim
 In the RTEMSOFT lab setup, both JETROS agents connect to a Wi-Fi router named `JETBOT_TP_LINK`.  
 The password for this network is `JetbotPSW`. This connection is essential for enabling SSH access.
 
-Alternatively, a display, keyboard, and mouse can be connected directly to the Jetson Orin Nano, allowing it to be used as a standalone computer.
+Alternatively, a display, keyboard, and mouse can be connected directly to the Jetson Orin Nano, allowing it to be used as a standalone computer. 
+**Warning:** Since the standoffs are made of plastic, they are not very robust. Therefore, it is strongly advised to handle the JETROS units with great care, always holding them by the base and not by the upper platform.
+
 
 To connect via SSH (after waiting several seconds for the Jetson Orin Nano to fully boot), use the following commands:
 
