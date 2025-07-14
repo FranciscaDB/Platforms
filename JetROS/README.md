@@ -6,6 +6,42 @@ JETROS is a modular and scalable robotic platform designed for real-time experim
   <img src="jetros.png" alt="image" width="400"/>
 </p>
 
+## How to run the system
+
+In the RTEMSOFT lab setup, both JETROS agents connect to a Wi-Fi router named `JETBOT_TP_LINK`.  
+The password for this network is `JetbotPSW`. This connection is essential for enabling SSH access.
+
+Alternatively, a display, keyboard, and mouse can be connected directly to the Jetson Orin Nano, allowing it to be used as a standalone computer.
+
+To connect via SSH (after waiting several seconds for the Jetson Orin Nano to fully boot), use the following commands:
+
+```bash
+ssh -X fran@192.168.0.102
+ssh -X nelson@192.168.0.103
+```
+
+Tip: You can use Ctrl + R to search through the terminal history on the JETROS units and quickly find previously used commands.
+
+If you wish to browse directories, extract files, or modify code, it is recommended to run the following command from the HOME directory:
+```bash
+jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --NotebookApp.token='' --NotebookApp.password=''
+```
+
+Tip: It is recommended to use a computer running Ubuntu 22.04 with ROS 2 Foxy in order to launch the GUI from that machine. To access topics published by the JETROS agents, make sure the ROS Domain ID is set to 1 on both systems. If this is not possible, the GUI can also be launched directly from one of the robots.
+
+To run the ROS 2 system, simply execute on each robot the following command:
+```bash
+ros2 launch jetros launch_jetros.py
+```
+
+And from either the Linux computer with ROS 2 Foxy installed, or from the selected robot, execute the following command (if executed from a robot, the script will be located in a folder named Monitoring within the HOME directory):
+```bash
+python3 GUI.py
+```
+
+Finally, before pressing the START button on the GUI, it is necessary to press the button on the power bank, located at the back right side of the JETROS.
+Once the button is pressed, you will have approximately 30 seconds to hit START before the power bank automatically shuts off again.
+
 ## Recommended Workflow
 To successfully follow this project, we suggest progressing in the following order:
 
@@ -20,5 +56,3 @@ To successfully follow this project, we suggest progressing in the following ord
 🔳 Launch the GUI from a robot or from a computer configured with ROS 2 and that has the same ROS ID. 
 
 And with this, you'll be able to use the JETROS platform.
-
-
