@@ -55,8 +55,3 @@ More details about this part of the project. Keep using this format to maintain 
 
 ---
 
-## Bill of Materials (Optional)
-
-- Component 1 – Description
-- Component 2 – Description
-- Component 3 – Description
