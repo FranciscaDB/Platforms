@@ -7,13 +7,26 @@ This section contains all information related to the ROS 2 packages, beginning w
 
 ## Camera Node Package    
 The package for the camera node can be found in the following GitHub repository:
+```bash
 https://github.com/ros-drivers/usb_cam
+```
 This package must be built from source, as we need access to its source files in order to make modifications.
 The required modification is described below:
 Navigate to the file located at:
 ```bash
 ros2_ws/src/usb_cam/src/usb_cam_node.cpp
 ```
+Find the following line:
+```bash
+const char BASE_TOPIC_NAME[] = "image_raw";
+```
+And change it to:
+```bash
+const char BASE_TOPIC_NAME[] = "/jetrosX/image_raw";
+```
+Where X is the ID of your robot. This ID must match the one used in the launch file of the jetros package.
+After making the change, you must recompile the package for the modification to take effect.
+
 ---
 
 ### Launch
