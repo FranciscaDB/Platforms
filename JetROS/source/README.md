@@ -2,6 +2,8 @@
 
 Brief introduction or tagline for the project.
 
+<img src="path/to/intro-image.png" alt="Intro Image" style="width:100%;"/>
+
 ---
 
 ### Launch
