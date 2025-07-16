@@ -1,8 +1,6 @@
-# Project Title
+This section contains all information related to the ROS 2 packages, beginning with the installation of necessary third-party dependencies, and then providing details about the jetros package.
 
-Brief introduction or tagline for the project.
-
-<img src="path/to/intro-image.png" alt="Intro Image" style="width:100%;"/>
+<img src="ROS2_System.png" alt="ROS2 system" style="width:100%;"/>
 
 ---
 
