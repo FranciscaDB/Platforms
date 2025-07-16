@@ -11,7 +11,7 @@ from launch_ros.actions import Node
 
 MIN_ANGLE = 0.78539 # pi/4
 MAX_ANGLE = 3.1416 # pi
-MIN_DISTANCE = 0.10
+MIN_DISTANCE = 0.12
 MAX_DISTANCE = 0.40
 ID = 2
 #vel_def = 0.0
