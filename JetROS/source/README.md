@@ -1,7 +1,10 @@
 # ROS2 packages, GUI and more
 This section contains all information related to the ROS 2 packages, beginning with the installation of necessary third-party dependencies, and then providing details about the jetros package.
 
-<img src="fig/ROS2_System.png" alt="ROS 2 system diagram of the agent." style="width:70%;"/>
+### Diagram of the complete system:
+<p align="center">
+  <img src="fig/ROS2_System.png" alt="ROS 2 system diagram of the agent." style="width:70%;"/>
+</p>
 
 # Third-party packages and necessary changes
 
