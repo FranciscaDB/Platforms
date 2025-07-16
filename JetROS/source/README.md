@@ -27,6 +27,31 @@ const char BASE_TOPIC_NAME[] = "/jetrosX/image_raw";
 Where X is the ID of your robot. This ID must match the one used in the launch file of the jetros package.
 After making the change, you must recompile the package for the modification to take effect.
 
+## LiDAR Node Package
+The package for the LiDAR node can be found in the following GitHub repository:
+```bash
+https://github.com/Slamtec/rplidar_ros/tree/ros2
+```
+Follow the instructions provided in the repository to compile and install the package.
+
+Once installed, navigate to the file located at:
+```bash
+ros2_ws/src/rplidar_ros/src/rplidar_node.cpp
+```
+Find the following lines:
+```cpp
+this->declare_parameter<std::string>("topic_name", std::string("scan"));
+this->get_parameter_or<std::string>("topic_name", topic_name, "scan");
+```
+And change them to:
+```cpp
+this->declare_parameter<std::string>("topic_name", std::string("/jetrosX/scan"));
+this->get_parameter_or<std::string>("topic_name", topic_name, "/jetrosX/scan");
+```
+Where `X` is the ID of your robot. This ID must match the one used in the launch file of the `jetros` package.
+
+After making the changes, you must recompile the package for them to take effect.
+
 ---
 
 ### Launch
