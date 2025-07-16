@@ -5,17 +5,15 @@ This section contains all information related to the ROS 2 packages, beginning w
 
 # Third-party packages and necessary changes
 
-## Camer Node Package    
+## Camera Node Package    
 The package for the camera node can be found in the following GitHub repository:
 https://github.com/ros-drivers/usb_cam
 This package must be built from source, as we need access to its source files in order to make modifications.
 The required modification is described below:
 Navigate to the file located at:
-
-´´´
-bash
+```bash
 ros2_ws/src/usb_cam/src/usb_cam_node.cpp
-´´´
+```
 ---
 
 ### Launch
