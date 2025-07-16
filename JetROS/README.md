@@ -40,7 +40,7 @@ ros2 launch jetros launch_jetros.py
 
 And from either the Linux computer with ROS 2 Foxy installed, or from the selected robot, execute the following command (if executed from a robot, the script will be located in a folder named Monitoring within the HOME directory):
 ```bash
-python3 GUI.py
+python3 gui.py
 ```
 
 Finally, before pressing the START button on the GUI, it is necessary to press the button on the power bank, located at the back right side of the JETROS.
