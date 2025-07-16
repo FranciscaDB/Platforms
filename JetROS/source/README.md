@@ -9,11 +9,11 @@ This section contains all information related to the ROS 2 packages, beginning w
 <table>
 <tr>
 <td width="40%">
-<img src="path/to/image1.png" alt="Image 1" style="width:100%;"/>
+<img src="fig/ROS2_System.png" alt="Image 1" style="width:100%;"/>
 </td>
 <td width="60%">
 <p>
-Descriptive text for section 1. You can explain what the image represents, how this component works, or anything relevant to this part of the project.
+ROS 2 system diagram of the agent.
 </p>
 </td>
 </tr>
