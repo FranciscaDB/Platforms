@@ -46,6 +46,10 @@ python3 gui.py
 Finally, before pressing the START button on the GUI, it is necessary to press the button on the power bank, located at the back right side of the JETROS.
 Once the button is pressed, you will have approximately 30 seconds to hit START before the power bank automatically shuts off again.
 
+After using the JETROS, it is highly recommended to disconnect the USB cable from the PowerBank to avoid leakage during its sleeping mode.
+
+It is strongly recommended to restart the launch process on each JETROS before every test, and only then run the GUI. Not restarting the launch or the GUI after the robots have been inactive for a while may lead to malfunctioning.
+
 ## Recommended Workflow
 To successfully follow this project, we suggest progressing in the following order:
 
