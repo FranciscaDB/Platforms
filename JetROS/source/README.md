@@ -175,16 +175,7 @@ More details about this part of the project. Keep using this format to maintain 
 ### Encoder R and L
 
 <table>
-<tr>
-<td width="40%">
-<img src="path/to/image3.png" alt="Image 3" style="width:100%;"/>
-</td>
-<td width="60%">
-<p>
 More details about this part of the project. Keep using this format to maintain a clear and organized README.
-</p>
-</td>
-</tr>
 </table>
 
 ---
