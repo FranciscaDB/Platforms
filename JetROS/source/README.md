@@ -55,6 +55,7 @@ Where `X` is the ID of your robot. This ID must match the one used in the launch
 
 After making the changes, you must recompile the package for them to take effect.
 
+# jetros package
 ---
 
 ### Launch
@@ -74,7 +75,7 @@ ROS 2 system diagram of the agent.
 
 ---
 
-### Section 2 Title
+### Neural Network
 
 <table>
 <tr>
@@ -91,7 +92,7 @@ Explanation or description for section 2. This can include instructions, descrip
 
 ---
 
-### Section 3 Title
+### Action Prioritizer
 
 <table>
 <tr>
@@ -107,4 +108,85 @@ More details about this part of the project. Keep using this format to maintain 
 </table>
 
 ---
+### PID Controller
+
+<table>
+<tr>
+<td width="40%">
+<img src="path/to/image3.png" alt="Image 3" style="width:100%;"/>
+</td>
+<td width="60%">
+<p>
+More details about this part of the project. Keep using this format to maintain a clear and organized README.
+</p>
+</td>
+</tr>
+</table>
+
+---
+### Motor Controller
+
+<table>
+<tr>
+<td width="40%">
+<img src="path/to/image3.png" alt="Image 3" style="width:100%;"/>
+</td>
+<td width="60%">
+<p>
+More details about this part of the project. Keep using this format to maintain a clear and organized README.
+</p>
+</td>
+</tr>
+</table>
+
+---
+### Lidar Filter
+
+<table>
+<tr>
+<td width="40%">
+<img src="path/to/image3.png" alt="Image 3" style="width:100%;"/>
+</td>
+<td width="60%">
+<p>
+More details about this part of the project. Keep using this format to maintain a clear and organized README.
+</p>
+</td>
+</tr>
+</table>
+
+---
+### Odometry
+
+<table>
+<tr>
+<td width="40%">
+<img src="path/to/image3.png" alt="Image 3" style="width:100%;"/>
+</td>
+<td width="60%">
+<p>
+More details about this part of the project. Keep using this format to maintain a clear and organized README.
+</p>
+</td>
+</tr>
+</table>
+
+---
+### Encoder R and L
+
+<table>
+<tr>
+<td width="40%">
+<img src="path/to/image3.png" alt="Image 3" style="width:100%;"/>
+</td>
+<td width="60%">
+<p>
+More details about this part of the project. Keep using this format to maintain a clear and organized README.
+</p>
+</td>
+</tr>
+</table>
+
+---
+
 
