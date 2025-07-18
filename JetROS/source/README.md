@@ -72,7 +72,9 @@ This node, called steering_node, is responsible for processing images from a cam
 
 ### Action Prioritizer Node
 
-More details about this part of the project. Keep using this format to maintain a clear and organized README.
+This node is responsible for determining the robot's velocity based on multiple inputs, including obstacle detection, object distance, and velocity references from another robot. It uses a PID controller to regulate the distance to an object when one is detected, adjusting the robot's speed accordingly.
+
+The node prioritizes between autonomous behavior and inter-robot coordination depending on the current context. Its operation is triggered by a signal received on the /start topic, which acts as a global activation command.
 
 ---
 ### PID Controller Node
@@ -84,7 +86,8 @@ More details about this part of the project. Keep using this format to maintain 
 </td>
 <td width="60%">
 <p>
-More details about this part of the project. Keep using this format to maintain a clear and organized README.
+This node implements two PID controllers to regulate the linear and angular velocities of a robot based on target and feedback values. It receives reference commands from the gui and compares them with actual velocity readings, computing control signals to be sent to the motors.
+The linear and angular PID controllers run at a fixed rate, and their output is saturated to stay within motor limits.
 </p>
 </td>
 </tr>
@@ -93,7 +96,7 @@ More details about this part of the project. Keep using this format to maintain 
 ---
 ### Motor Controller Node
 
-More details about this part of the project. Keep using this format to maintain a clear and organized README.
+This node is responsible for converting velocity commands into low-level motor control signals.
 
 ---
 ### Lidar Filter Noder
@@ -105,8 +108,8 @@ More details about this part of the project. Keep using this format to maintain 
 </td>
 <td width="60%">
 <p>
-More details about this part of the project. Keep using this format to maintain a clear and organized README.
-</p>
+The FilteredLidar node processes LiDAR sensor data, applying a filter based on configurable angles and distances to retain only the points within a specific region of interest. It then publishes a reduced scan to /jetros<ID>/filtered_scan, a boolean signal to /jetros<ID>/obj_det indicating whether an object is detected within the filtered area, and the distance to the closest object on /jetros<ID>/dist_read.
+In the launch file, the parameters can be configured. The distance must be specified in meters, and if the LiDAR is oriented with the arrow pointing forward, π will always be the maximum angle and the minimum will be somewhere between 0 and π, creating a symmetric sweep as shown in the image. If a non-symmetric range is desired, the node must be modified accordingly.
 </td>
 </tr>
 </table>
