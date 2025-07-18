@@ -60,33 +60,22 @@ After making the changes, you must recompile the package for them to take effect
 
 ### Launch
 
-<table>
-<tr>
-<td width="40%">
-<img src="fig/ROS2_System.png" alt="Image 1" style="width:100%;"/>
-</td>
-<td width="60%">
-<p>
 ROS 2 system diagram of the agent.
-</p>
-</td>
-</tr>
-</table>
 
 ---
 
-### Neural Network
+### Neural Network Node
 
 Explanation or description for section 2. This can include instructions, descriptions of physical parts, software components, etc.
 
 ---
 
-### Action Prioritizer
+### Action Prioritizer Node
 
 More details about this part of the project. Keep using this format to maintain a clear and organized README.
 
 ---
-### PID Controller
+### PID Controller Node
 
 <table>
 <tr>
@@ -102,12 +91,12 @@ More details about this part of the project. Keep using this format to maintain 
 </table>
 
 ---
-### Motor Controller
+### Motor Controller Node
 
 More details about this part of the project. Keep using this format to maintain a clear and organized README.
 
 ---
-### Lidar Filter
+### Lidar Filter Noder
 
 <table>
 <tr>
@@ -123,12 +112,12 @@ More details about this part of the project. Keep using this format to maintain 
 </table>
 
 ---
-### Odometry
+### Odometry Node
 
 More details about this part of the project. Keep using this format to maintain a clear and organized README.
 
 ---
-### Encoder R and L
+### Encoder R and L Nodes
 
 More details about this part of the project. Keep using this format to maintain a clear and organized README.
 
