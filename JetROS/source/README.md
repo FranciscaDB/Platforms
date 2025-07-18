@@ -117,12 +117,12 @@ In the launch file, the parameters can be configured. The distance must be speci
 ---
 ### Odometry Node
 
-More details about this part of the project. Keep using this format to maintain a clear and organized README.
+This node calculates the robot’s odometry by using its kinematics and the velocity data received from the wheel encoders. It translates the encoder readings into the robot’s velocity and publishes this information for use by other components in the system.
 
 ---
 ### Encoder R and L Nodes
 
-More details about this part of the project. Keep using this format to maintain a clear and organized README.
+These nodes read the signals from the left and right wheel encoders, count the pulses to determine wheel rotation, and convert this data into linear velocity. They then publish the linear velocity of each wheel at regular intervals.
 
 ---
 
