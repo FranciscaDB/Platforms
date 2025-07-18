@@ -60,13 +60,13 @@ After making the changes, you must recompile the package for them to take effect
 
 ### Launch
 
-ROS 2 system diagram of the agent.
+This launch file is meant to initialize and run the full sensor and control stack for a robot in the jetros system. It also allows configuring the robot's ID and adjusting certain parameters of the LiDAR filter, such as the distance range and the angular sector in which the data is filtered. These settings are explained in more detail in the node section.
 
 ---
 
 ### Neural Network Node
 
-Explanation or description for section 2. This can include instructions, descriptions of physical parts, software components, etc.
+This node, called steering_node, is responsible for processing images from a camera and generating coordinates corresponding to the center of the path. It uses a pre-trained neural network optimized with TensorRT to infer the steering direction from the images and publishes the result as a Twist message. Note that the model path must be updated to match the correct location of the .pth file on your system.
 
 ---
 
