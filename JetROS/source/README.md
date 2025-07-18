@@ -113,7 +113,7 @@ More details about this part of the project. Keep using this format to maintain 
 <table>
 <tr>
 <td width="40%">
-<img src="path/to/image3.png" alt="Image 3" style="width:100%;"/>
+<img src="fig/PID.png" alt="Image 3" style="width:100%;"/>
 </td>
 <td width="60%">
 <p>
