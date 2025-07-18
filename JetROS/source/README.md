@@ -77,35 +77,13 @@ ROS 2 system diagram of the agent.
 
 ### Neural Network
 
-<table>
-<tr>
-<td width="40%">
-<img src="path/to/image2.png" alt="Image 2" style="width:100%;"/>
-</td>
-<td width="60%">
-<p>
 Explanation or description for section 2. This can include instructions, descriptions of physical parts, software components, etc.
-</p>
-</td>
-</tr>
-</table>
 
 ---
 
 ### Action Prioritizer
 
-<table>
-<tr>
-<td width="40%">
-<img src="path/to/image3.png" alt="Image 3" style="width:100%;"/>
-</td>
-<td width="60%">
-<p>
 More details about this part of the project. Keep using this format to maintain a clear and organized README.
-</p>
-</td>
-</tr>
-</table>
 
 ---
 ### PID Controller
@@ -126,18 +104,7 @@ More details about this part of the project. Keep using this format to maintain 
 ---
 ### Motor Controller
 
-<table>
-<tr>
-<td width="40%">
-<img src="path/to/image3.png" alt="Image 3" style="width:100%;"/>
-</td>
-<td width="60%">
-<p>
 More details about this part of the project. Keep using this format to maintain a clear and organized README.
-</p>
-</td>
-</tr>
-</table>
 
 ---
 ### Lidar Filter
@@ -158,18 +125,7 @@ More details about this part of the project. Keep using this format to maintain 
 ---
 ### Odometry
 
-<table>
-<tr>
-<td width="40%">
-<img src="path/to/image3.png" alt="Image 3" style="width:100%;"/>
-</td>
-<td width="60%">
-<p>
 More details about this part of the project. Keep using this format to maintain a clear and organized README.
-</p>
-</td>
-</tr>
-</table>
 
 ---
 ### Encoder R and L
