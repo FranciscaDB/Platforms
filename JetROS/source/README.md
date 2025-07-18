@@ -175,7 +175,9 @@ More details about this part of the project. Keep using this format to maintain 
 ### Encoder R and L
 
 <table>
+<tr>
 More details about this part of the project. Keep using this format to maintain a clear and organized README.
+<tr>
 </table>
 
 ---
