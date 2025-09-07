@@ -23,6 +23,8 @@ https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
 
 After completing the installation, continue with the Tutorials section. Once you are able to run the turtlesim examples, your ROS 2 environment will be mostly ready.
 
+If you set a ROS_DOMAIN_ID, make sure to use the same ID on both the robots and the computer where the GUI will be executed.
+
 ## 3. Install PyTorch 2.1 and TorchVision 0.16.1
 
 https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
@@ -75,3 +77,4 @@ git clone https://github.com/NVIDIA-AI-IOT/torch2trt
 cd torch2trt
 python3 setup.py install --user
 ```
+
