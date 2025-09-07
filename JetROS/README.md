@@ -6,6 +6,10 @@ JETROS is a modular and scalable robotic platform designed for real-time experim
   <img src="jetros.png" alt="image" width="400"/>
 </p>
 
+## Requirements
+
+...
+
 ## How to run the system
 
 In the RTEMSOFT lab setup, both JETROS agents connect to a Wi-Fi router named `JETBOT_TP_LINK`.  
