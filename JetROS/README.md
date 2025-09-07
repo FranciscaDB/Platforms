@@ -8,7 +8,9 @@ JETROS is a modular and scalable robotic platform designed for real-time experim
 
 ## Requirements
 
-...
+The detailed hardware specifications and assembly instructions are provided in the physical_build/ section.
+
+Please note that JETROS has only been tested on the NVIDIA Jetson Orin Nano platform; compatibility with other Jetson platforms has not been verified.
 
 ## How to run the system
 
