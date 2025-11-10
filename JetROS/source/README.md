@@ -99,7 +99,7 @@ The linear and angular PID controllers run at a fixed rate, and their output is 
 This node is responsible for converting velocity commands into low-level motor control signals.
 
 ---
-### Lidar Filter Noder
+### Lidar Filter Node
 
 <table>
 <tr>
